@@ -10,32 +10,31 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <link rel="stylesheet" href="style.css">
-</head>
 
-<body>
+  <body>
 
-    <div class="navigation">
-        <nav class="navbar navbard-expand-lg navbard-light bg-light">
-            <a class="navbar-brand" style="background-color: gainsboro;" href="Landing_Page.html">Latitude</a>
-            <button class="navbar-toggle" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+<!--Top of page-->
+<div class="navigation">
+    <nav class="navbar navbard-expand-lg navbard-light bg-light">
+        <a class="navbar-brand" style="background-color: gainsboro;" href="Landing_Page">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="toggle navigation"></button>
+        <span class="navbard-toggle-icon"></span>
 
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
+        <div class="collapse navbard-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nave ml-auto">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"></a>
-                    <data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></data-toggle>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropDown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navigationDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="Max_Temperature.html">Max Temperature</a>
                         <a class="dropdown-item" href="Humidity.html">Humidity</a>
                         <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
                         <a class="dropdown-item" href="Wind_Speed.html">Wind Speed</a>
                     </div>
+                </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Comparison.html">Comparison</a>
@@ -45,124 +44,129 @@
                 </li>
             </ul>
         </div>
-        </nav>
+    </nav>
+</div>
+<!--add script and pic for cloudiness page-->
+<div class="container">
+    <div class="row">
+        <!--majority of page content, leftside-->
+        <div class="col-lg-8">
+            <div class="box">
+                <h3 class="title">Summary: Latitude vs. X</h3> 
+                <img src="Lat_Temp.png" alt="Temperature Graph">
+                <br>
+                <br>
+                <p>Jean shorts poke austin kinfolk. Gastropub man braid cardigan affogato, direct trade fingerstache flexitarian. Affogato tofu everyday carry coloring book, selvage readymade enamel pin retro hexagon meditation art party church-key chicharrones. +1 iPhone kombucha seitan migas lo-fi hammock godard pitchfork scenester Fam before they sold out aesthetic cliche slow-carb chicharrones iPhone gluten-free marfa bespoke helvetica +1 vice four loko lumbersexual. Shoreditch kogi farm-to-table tattooed, truffaut shabby chic meggings copper mug ramps. Tousled polaroid jean shorts locavore wayfarers everyday carry neutra activated charcoal fanny pack mustache mlkshk viral disrupt succulents biodiesel. Farm-to-table vape cronut readymade etsy marfa chillwave, selfies banjo shabby chic.</p>
+                <p>I'm baby put a bird on it dreamcatcher ramps affogato. Wayfarers next level four loko church-key glossier, ugh fanny pack butcher coloring book ramps mustache banh mi. Cardigan 8-bit venmo fam chia, pabst chillwave lomo snackwave slow-carb post-ironic palo santo heirloom glossier. Farm-to-table vegan lyft franzen gentrify poke, art party irony shaman copper mug YOLO chartreuse.
 
-        <!--start working on landing page items-->
-        <div class="container">
-            <div class="row">
-                <!--information for bulk of content on the leftside of landing page-->
-                <div class="col-md-9">
-                    <div class="box">
-                        <h1 class="title">Summary:Latitude vs. X</h1>
-                        <img src="Lat_Temp.png" alt="Max Temperature">
-                        <br>
-                        <p> Hexagon brunch DIY man braid typewriter subway tile. Four dollar toast banh mi put a bird on it, typewriter godard brunch bushwick tote bag freegan tacos asymmetrical venmo neutra hexagon narwhal. Hashtag church-key twee mixtape iceland woke freegan shoreditch ramps hell of cornhole jianbing.</p>
-                        <br>
-                        <p>Flexitarian street art asymmetrical quinoa, kickstarter helvetica air plant. DIY cray tbh, man bun green juice affogato occupy activated charcoal. Farm-to-table cronut vinyl vexillologist vice. Vegan hexagon trust fund crucifix yuccie health goth craft beer jean shorts cronut tbh bicycle rights franzen meditation small batch sriracha. </p>
-                    </div>
+                    Swag irony before they sold out cornhole. Austin drinking vinegar celiac asymmetrical migas tousled fingerstache synth. Mlkshk whatever kitsch meditation, XOXO jean shorts pop-up seitan shoreditch VHS. Keytar raclette selfies farm-to-table lyft, food truck poutine echo park readymade ramps. Selvage four loko tofu disrupt hashtag umami scenester. Cliche church-key adaptogen beard. Cloud bread fanny pack paleo keytar.</p>
+            </div>
 
-                </div>
-                <!--rightside of screen, with additional content of the 4 blocker chart viz-->
-                <div class="col-lg-4">
-                <div class="box">
-                    <h2>Visualizations</h2>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-6">
-                                <a href="Max_Temperature.html">
-                                    <img class="panel" src="Lat_Temp.png" width="200px" alt="Max Temperature">
-                                </a>
-                            </div>
-                            <div class="col-6">
-                                <a href="Humidity.html">
-                                <img class="panel" src="Lat_Humidity.png" width="200px" alt="Humidity">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        
+        </div>
+        <!--rightside of screen, with additional content of the 4 blocker chart viz-->
+        <div class="col-lg-4">
+        <div class="box">
+            <h2>Visualizations</h2>
+            <div class="container">
                 <div class="row">
                     <div class="col-6">
-                        <a href="Cloudiness.html">
-                            <img class="panel" src="Lat_Cloudiness.png" width="200px" alt="Cloudiness">
+                        <a href="Max_Temperature.html">
+                            <img class="panel" src="Lat_Temp.png" width="200px" alt="Max Temperature">
                         </a>
                     </div>
                     <div class="col-6">
-                        <a href="Wind_Speed.html">
-                            <img class="panel" src="Lat_Wind.png" width="200px" alt="Wind">
-                        </a>
-        
+                        <a href="Humidity.html">
+                        <img class="panel" src="Lat_Humidity.png" width="200px" alt="Humidity">
                     </div>
                 </div>
-        
-                </div>
-                </div>
-        
             </div>
         </div>
-        </div>
-        
-        </body>
-        
-        </html>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
 
-        
-        
+        <div class="row">
+            <div class="col-6">
+                <a href="Cloudiness.html">
+                    <img class="panel" src="Lat_Cloudiness.png" width="200px" alt="Cloudiness">
+                </a>
+            </div>
+            <div class="col-6">
+                <a href="Wind_Speed.html">
+                    <img class="panel" src="Lat_Wind.png" width="200px" alt="Wind">
+                </a>
+
+            </div>
+        </div>
+
+        </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+
