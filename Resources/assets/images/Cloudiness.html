@@ -3,167 +3,111 @@
 
 <head>
 
-  <meta charset="UTF-8">
-  <title>Visualization Dashboard</title>
+    <meta charset="UTF-8">
+    <title>Visualization Dashboard</title>
 
-  <!-- Bring in our bootstrap stylesheet -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 
-  <body>
+<body>
 
-<!--Top of page-->
-<div class="navigation">
-    <nav class="navbar navbard-expand-lg navbard-light bg-light">
-        <a class="navbar-brand" style="background-color: gainsboro;" href="Landing_Page">Latitude</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse"
-        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-        aria-expanded="false" aria-label="toggle navigation"></button>
-        <span class="navbard-toggle-icon"></span>
+    <!--Top of page-->
+    <div class="navigation">
+        <nav class="navbar navbard-expand-lg navbard-light bg-light">
+            <a class="navbar-brand" style="background-color: gainsboro;" href="Landing_Page">Latitude</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="toggle navigation"></button>
+            <span class="navbard-toggle-icon"></span>
 
-        <div class="collapse navbard-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nave ml-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navigationDropdown" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="Max_Temperature.html">Max Temperature</a>
-                        <a class="dropdown-item" href="Humidity.html">Humidity</a>
-                        <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
-                        <a class="dropdown-item" href="Wind_Speed.html">Wind Speed</a>
-                    </div>
-                </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Comparison.html">Comparison</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Data_Page.html">Data</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</div>
-<!--add script and pic for cloudiness page-->
-<div class="container">
-    <div class="row">
-        <!--majority of page content, leftside-->
-        <div class="col-lg-8">
-            <div class="box">
-                <h3 class="title">Cloudiness</h3> 
-                <img src="Lat_Cloudiness.png" alt="Cloudiness Graph">
-                <br>
-                <br>
-                <p>Man braid nostrud pop-up marfa meditation butcher, try-hard edison bulb hexagon lumbersexual fugiat gluten-free. Squid chia officia pabst aliqua ethical eu fugiat vexillologist cray lomo. Af farm-to-table humblebrag squid wolf kinfolk crucifix keytar umami. Succulents tousled ullamco, before they sold out nisi craft beer knausgaard bitters lyft irony slow-carb..</p>
-
-            </div>
-
-        </div>
-        <!--rightside of screen, with additional content of the 4 blocker chart viz-->
-        <div class="col-lg-4">
-        <div class="box">
-            <h2>Visualizations</h2>
-            <div class="container">
-                <div class="row">
-                    <div class="col-6">
-                        <a href="Max_Temperature.html">
-                            <img class="panel" src="Lat_Temp.png" width="200px" alt="Max Temperature">
+            <div class="collapse navbard-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nave ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navigationDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Max_Temperature.html">Max Temperature</a>
+                            <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                            <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                            <a class="dropdown-item" href="Wind_Speed.html">Wind Speed</a>
+                        </div>
+            </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Data_Page.html">Data</a>
+            </li>
+            </ul>
+    </div>
+    </nav>
+    </div>
+    <!--add script and pic for cloudiness page-->
+    <div class="container">
+        <div class="row">
+            <!--majority of page content, leftside-->
+            <div class="col-lg-8">
+                <div class="box">
+                    <h3 class="title">Cloudiness</h3>
+                    <img src="Lat_Cloudiness.png" alt="Cloudiness Graph">
+                    <br>
+                    <br>
+                    <p>Man braid nostrud pop-up marfa meditation butcher, try-hard edison bulb hexagon lumbersexual
+                        fugiat gluten-free. Squid chia officia pabst aliqua ethical eu fugiat vexillologist cray lomo.
+                        Af farm-to-table humblebrag squid wolf kinfolk crucifix keytar umami. Succulents tousled
+                        ullamco, before they sold out nisi craft beer knausgaard bitters lyft irony slow-carb..</p>
+
+                </div>
+
+            </div>
+            <!--rightside of screen, with additional content of the 4 blocker chart viz-->
+            <div class="col-lg-4">
+                <div class="box">
+                    <h2>Visualizations</h2>
+                    <div class="container">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6">
+                                    <a class="centered_images" href="Max_Temperature.html">
+                                        <img class="panel centered_images" src="Lat_Temp.png" width="200px"
+                                            alt="Max Temperature">
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a class="centered_images" href="Humidity.html">
+                                        <img class="panel centered_images" src="Lat_Humidity.png" width="200px"
+                                            alt="Humidity">
+                                    </a>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <a class="centered_images" href="Cloudiness.html">
+                                        <img class="panel centered_images" src="Lat_Cloudiness.png" width="200px"
+                                            alt="Cloudiness">
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a class="centered_images" href="Wind_Speed.html">
+                                        <img class="panel centered_images" src="Lat_Wind.png" width="200px" alt="Wind">
+                                    </a>
+
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="col-6">
-                        <a href="Humidity.html">
-                        <img class="panel" src="Lat_Humidity.png" width="200px" alt="Humidity">
-                    </div>
+
                 </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-6">
-                <a href="Cloudiness.html">
-                    <img class="panel" src="Lat_Cloudiness.png" width="200px" alt="Cloudiness">
-                </a>
-            </div>
-            <div class="col-6">
-                <a href="Wind_Speed.html">
-                    <img class="panel" src="Lat_Wind.png" width="200px" alt="Wind">
-                </a>
-
-            </div>
-        </div>
-
-        </div>
-        </div>
-
-    </div>
-</div>
-</div>
-
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-
-</html>
-
