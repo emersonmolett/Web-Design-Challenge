@@ -1,4 +1,4 @@
-This assignment utilizes the learned in HTML, Jupyter Notebook, and CSS. These are used to create a dashboard to visualize weather data analysis. The dashboard is deployed to GitHub Pages.    
+This assignment utilizes the skills learned in HTML, Jupyter Notebook, and CSS. These are used to create a dashboard to visualize weather data analysis. The dashboard is deployed to GitHub Pages.    
 
 
 Check out my [github pages website](https://emersonmolett.github.io/Web-Design-Challenge/Resources/assets/images/Landing_Page.html)
