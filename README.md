@@ -5,7 +5,7 @@ Check out my [github pages website](https://emersonmolett.github.io/Web-Design-C
 
 <br>
 
-Landing Page:<br>
+💻 Landing Page:<br>
 The HTML code was successfully used to:
 <li>Load all images</li>
 <li>Link each image to a specified page</li>
@@ -14,11 +14,18 @@ The HTML code was successfully used to:
 
 <br>
 
-Visualization Pages: <br>
+📊 Visualization Pages: <br>
 All visualization pages were effectively created, containing:
 <li>Displayed graphs</li>
 <li>Images link to respective pages</li>
 <li>A written explanation of the plot</li>
 <li>Page is responsive when window size change</li>   
+
+<br>
+<p>Additionally, a Comparison Page was created. This provided one pages with visuals for each portion of the assignment. Like the other sections, the images linked to the respective visualization page.</p>
+
+<p>A Data Page was generated in the format of a table. This was the data produced for the project.</p>
+
+<p>Also, a Navigation Bar is provided on each page. The Nav Bar works on all pages, and has a dropdown feature. </p> 
 
 
